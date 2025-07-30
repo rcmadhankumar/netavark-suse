@@ -1,0 +1,63 @@
+# Changelog
+## [0.2.4] - 2024-07-10
+### Breaking changes
+ - N/A
+
+### New features
+ - N/A
+
+### Bug fixes
+ - Apply BPF filter right after raw socket been created. (e34bc25)
+ - Ignore invalid DHCP message during discovery and request stage. (fed292c)
+
+## [0.2.3] - 2024-02-19
+### Breaking changes
+ - N/A
+
+### New features
+ - Support LoongArch. (c6d8e32)
+
+### Bug fixes
+ - N/A
+
+## [0.2.2] - 2023-03-24
+### Breaking changes
+ - N/A
+
+### New features
+ - N/A
+
+### Bug fixes
+ - Fix DHCP Server Identifier(54) option. (f267f10)
+
+## [0.2.1] - 2023-02-17
+### Breaking changes
+ - N/A
+
+### New features
+ - N/A
+
+### Bug fixes
+ - Fix build failuer on i686. (7e877da)
+ - Improve ASYNC API performance. (341dfba)
+
+## [0.2.0] - 2023-02-12
+### Breaking changes
+ - Change the `DhcpV4Config::new()` to return `DhcpV4Config` instead of result.
+   (ab07930)
+
+### New features
+ - Add async API. (05c04d9)
+
+### Bug fixes
+ - N/A
+
+## [0.1.0] - 2022-12-01
+### Breaking changes
+ - N/A
+
+### New features
+ - Initial release
+
+### Bug fixes
+ - N/A
